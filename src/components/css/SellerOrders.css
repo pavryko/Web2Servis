@@ -1,0 +1,91 @@
+/* CSS for the Orders page */
+
+/* Import cool Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.orders-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.active-orders,
+.previous-orders {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.active-orders:hover,
+.previous-orders:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.order-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.order-item h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.order-item p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.order-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-item li {
+  font-size: 16px;
+  margin: 4px 0;
+  color: #777;
+}
+
+.custom-toast {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .orders-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active-orders,
+  .previous-orders {
+    width: 100%;
+  }
+}

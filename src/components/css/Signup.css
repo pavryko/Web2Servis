@@ -1,0 +1,87 @@
+/* CSS for Signup.css */
+
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .Register {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between fields and buttons */
+    margin-right: 80px; /* Add some spacing between containers */
+  }
+  
+  .right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .title-container {
+    margin-bottom: 20px;
+  }
+  
+  .fields {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add specific styles for image and input container as needed */
+  .image-container {
+    text-align: right; /* Align to the right */
+  }
+  
+  /* Style for the file input */
+  input[type="file"] {
+    height: 34px;
+    /* Add other styles as needed */
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align buttons */
+    margin-top: auto; /* Add some spacing from the fields */
+    
+  }
+
+  .modern-button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .modern-button:hover {
+    background: linear-gradient(to right, #0056b3, #007bff);
+  }
+  
+
+  .your-input-class {
+    /* Your common styles for input fields */
+    /* For example, you can set the background color, text color, and padding */
+    background-color: #f2f2f2 !important;
+    color: #333 !important;
+    padding: 10px !important;
+    /* Add any other common styles you want */
+  }

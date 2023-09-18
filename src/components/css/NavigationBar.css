@@ -1,0 +1,116 @@
+/* Import a cool Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* navbar styles */
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Remove the menu icon */
+/* .menu-bars {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+} */
+
+.Naslov {
+  font-family: 'Montserrat', sans-serif; /* Use the cool font */
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+.log-out {
+  background-color: #005cbf; /* Change the background color to red */
+  color: #fff;
+  font-size: 14px; /* Adjust the font size */
+  text-decoration: none;
+  padding: 5px 10px; /* Add padding to the button */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+}
+
+.log-out:hover {
+  background-color: #0049a7; /* Change background color on hover */
+}
+
+/* nav-bar styles */
+.nav-bar {
+  background-color: #333;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transition: 350ms;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar.active {
+  left: 0;
+}
+
+.nav-bar-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar-toggle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Remove the menu icon */
+/* .menu-bar {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+} */
+
+/* .menu-bar:hover {
+  color: #ff6347; 
+} */
+
+.profile-img-card-navbar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+.profile-img-card-navbar:hover {
+  opacity: 0.8; /* Change opacity on hover */
+}
+
+.nav-bar-items li {
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.nav-bar-items li:hover {
+  background-color: #0049a7; /* Change background color on hover */
+}
+
+.nav-bar-items a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-items a span {
+  margin-left: 10px;
+}
+
+/* You can add more specific styles as needed */

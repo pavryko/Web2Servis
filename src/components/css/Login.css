@@ -1,0 +1,117 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .Log {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tittle-login {
+    font-size: 3rem;
+    color: #007bff; /* Change the color to a vibrant blue (#007bff) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .ikonica {
+    font-size: 3rem;
+    color: #007bff; /* Match the title color */
+    margin-right: 10px;
+  }
+  
+  .error_message {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* New styles for the modern button */
+.modern-button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .modern-button:hover {
+    background: linear-gradient(to right, #0056b3, #007bff);
+  }
+
+  .cool-comment {
+    font-size: 1.2rem;
+    color: #555; /* Adjust the color to your preference */
+    margin-top: 0; /* Add some space between the title and comment */
+    /* Add any additional styles to make it look cool */
+  }
+
+  .icon-comment-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-wrapper {
+    float: left;
+  }
+
+  .comment-wrapper {
+    shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    float: left;
+    padding-right: 20px; /* Adjust spacing between icon and text */
+  }
+
+  .custom-toast {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0; /* Position it at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }

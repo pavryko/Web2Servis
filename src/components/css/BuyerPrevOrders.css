@@ -1,0 +1,87 @@
+/* CSS for the PreviousOrders page */
+.orders-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .active-orders,
+  .previous-orders {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .active-orders h2,
+  .previous-orders h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .order-box2,
+  .order-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-box2 h3,
+  .order-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .order-box p {
+    margin: 5px 0;
+  }
+  
+  .order-box h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .order-box ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .order-box li {
+    margin-bottom: 5px;
+  }
+  
+  .cancel-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .cancel-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #f24646;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .orders-container {
+      flex-direction: column;
+    }
+    .active-orders,
+    .previous-orders {
+      margin: 10px 0;
+    }
+  }
+  

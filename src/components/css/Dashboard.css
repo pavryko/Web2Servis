@@ -1,0 +1,90 @@
+/* CSS for the Dashboard page */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .product-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .product-details h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .stock-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px 0;
+  }
+  
+  .green {
+    background-color: #4caf50;
+  }
+  
+  .red {
+    background-color: #f44336;
+  }
+  
+  .product-details b {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .order-btn {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .order-btn[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .custom-toast {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .product-item {
+      flex-basis: 100%;
+    }
+  }
+  

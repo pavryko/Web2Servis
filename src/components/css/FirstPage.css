@@ -1,0 +1,107 @@
+/* CSS for the First Page with More Blue */
+.first-page {
+    font-family: Poppins, sans-serif;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0074e4; /* Updated header background color to blue */
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo svg {
+    font-size: 44px;
+    margin-right: 10px;
+    color: #fff; /* Updated logo icon color to white */
+  }
+  
+  .header-info {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .header-info h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-info p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .login-button a {
+    text-decoration: none;
+    background-color: #005cbf; /* Updated login button background color to blue */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button a:hover {
+    background-color: #0049a7; /* Updated hover color to a darker blue */
+  }
+  
+  /* Carousel Styles */
+  .carousel-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .carousel-image {
+    max-width: 35%; /* Adjust the maximum width of carousel images */
+    max-height: 35%; /* Adjust the maximum height of carousel images */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+  /* Individual carousel item styles can be added here as needed */
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .login-button {
+      margin-top: 20px;
+    }
+  }
+
+  .store-title {
+    font-size: 36px; /* Adjust the font size */
+    margin: 10px 0;
+  }
+
+  .cool-comment {
+    font-size: 38px; /* Adjust the font size */
+    margin: 10px 0;
+  }
+  
