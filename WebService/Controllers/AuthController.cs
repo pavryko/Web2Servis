@@ -58,7 +58,7 @@ namespace WebService.Controllers
 
 
         [HttpPost]
-        [Route("/register")]
+        [Route("/signup")]
         public IActionResult Register([FromForm] string userName, [FromForm] string password, [FromForm] string email, [FromForm] string name, [FromForm] string surname, [FromForm] DateTime date, [FromForm] string address, [FromForm] string typeOfUser, [FromForm] IFormFile image)
         {
             UserDTO userDTO = new UserDTO();
